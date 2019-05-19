@@ -1,0 +1,39 @@
+{
+    "name": "quieteroks/yii-presenter",
+    "type": "library",
+    "description": "Presenter for yii framework",
+    "keywords": [
+        "presenter",
+        "framework",
+        "yii2",
+        "yii"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Karavaev Ilya",
+            "email": "quieteroks@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/Quieteroks/yii-presenter",
+        "issues": "https://github.com/Quieteroks/yii-presenter/issues"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "quieteroks\\presenter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "quieteroks\\presenter\\tests\\": "tests/"
+        }
+    }
+}
