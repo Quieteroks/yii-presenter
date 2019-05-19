@@ -14,7 +14,7 @@ use quieteroks\presenter\strategies\ModelStrategy;
 use quieteroks\presenter\strategies\ModelStrategyInterface;
 use quieteroks\presenter\strategies\ObjectStrategy;
 
-class Presenter implements Arrayable
+abstract class Presenter implements Arrayable
 {
     use ArrayableTrait;
 
