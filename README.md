@@ -24,7 +24,7 @@ for CRUD operation in admin panel:
 Install with composer cli:
 
 ```
-composer install quieteroks/yii-presenter
+composer require quieteroks/yii-presenter
 ```
 
 Or add package in `composer.json` to `require` part:

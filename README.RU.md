@@ -25,7 +25,7 @@
 Установка с помощью composer:
 
 ```
-composer install quieteroks/yii-presenter
+composer require quieteroks/yii-presenter
 ```
 
 Или добавьте в `composer.json` в секцию `require`:
